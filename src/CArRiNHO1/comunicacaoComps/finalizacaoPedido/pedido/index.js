@@ -9,7 +9,7 @@ export default function Conclusao() {
     setPedido({
       numero: 583859,
       dataEntrega: '22/10/2021',
-      cliente: 'Bruno de Oliveira'
+      cliente: 'Gustavo Antônio'
     })
   }, []);
 

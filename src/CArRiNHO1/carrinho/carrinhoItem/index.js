@@ -17,10 +17,8 @@ export default function CarrinhoItem(props) {
 
 
   function alterarQtd(qtd) {
-    // Atualiza a variável de Estado
     setProduto({...produto, qtd });
 
-    // Chama componente PAI para atualizar Cookie
     props.onUpdate(produto.id, qtd)
   }
 
